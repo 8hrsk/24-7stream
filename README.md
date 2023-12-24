@@ -8,5 +8,5 @@ Beginner's guide:
  - `npm start` to run local or `pm2 start index.js` to host (have to be in project directoiry)
 
 [!TODO]:
- - [] - Make a video link stream
- - [] - Make a local audio stream 
+ - [ ] - Make a video link stream
+ - [ ] - Make a local audio stream 
