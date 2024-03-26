@@ -12,3 +12,8 @@ VIDEO = assets + VIDEO;
 console.log(API, VIDEO, AUDIO);
 
 youtube(API, VIDEO, AUDIO);
+
+setInterval(() => {
+    console.log('loop');
+    youtube(API, VIDEO, AUDIO)
+}, 43200000);
