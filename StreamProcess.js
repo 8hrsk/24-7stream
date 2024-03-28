@@ -32,7 +32,7 @@ export default class StreamProcess {
             `rtmp://a.rtmp.youtube.com/live2/${apikey}`,
           ];
 
-        this.child = spawn(ffmpegCommand[0], ffmpegCommand.slice(1));
+        this.child = spawn(this.ffmpegCommand[0], this.ffmpegCommand.slice(1));
 
         this.child.stdout.on('data', (data) => {
             console.log(`stdout: ${data}`); 
