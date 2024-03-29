@@ -23,7 +23,7 @@ setInterval(() => {
             console.log('live')
         } else {
             console.log('Not live. Restarting...');
-            stream.kill();
+            stream.stopStream();
             stream = new StreamProcess(API, VIDEO, AUDIO);
         }
     })
